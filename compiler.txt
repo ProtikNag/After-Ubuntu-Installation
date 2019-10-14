@@ -1,0 +1,2 @@
+Install g++ compiler:
+	sudo apt install g++

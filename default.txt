@@ -1,0 +1,46 @@
+Google Chrome:
+	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+	sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+Dark Theme on Ubuntu:
+	sudo apt install gnome-tweaks
+	sudo apt install adwaita-icon-theme-full
+	
+	Now open tweaks and change the appearance.
+
+Install avro:
+	wget "https://github.com/ugcoder/avro/releases/download/v2.0/avro_2.0-1_all.deb" (version may change)
+	sudo apt-get install -fy
+	sudo dpkg -i avro_2.0-1_all.deb
+	ibus restart
+
+	Then go to settings and manage installed languages. 
+
+Install remmina:
+	sudo snap install remmina
+
+Install git:
+	sudo apt-get install git
+
+Install MySQL:
+	sudo apt-get update
+	sudo apt-get install mysql-server
+	
+	*** Whenever you install a fresh copy of MySQL, there are some default settings that you should change in order to enhance the security of your MySQL installation. This includes the removal of test users, test databases and permission for remote login by a root user.
+
+	sudo mysql_secure_installation         (select y for every query)
+
+	*** While running the security script, you provided a password for root. This user, however, is not allowed to connect to the MySQL shell using the same password. You can change configure root to use the MySQL shell by changing its authentication method from the default “auth_socket” to “mysql_native_password”.
+
+	sudo mysql
+	SELECT user,authentication_string,plugin,host FROM mysql.user;
+
+	*** In the above output, you can see that root is using the auth-socket plugin for authentication by default.
+
+	ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'This%%is%%my%%pass%%for%%mysql%%022';
+	FLUSH PRIVILEGES;
+	SELECT user,authentication_string,plugin,host FROM mysql.user;
+	exit
+	
+
+

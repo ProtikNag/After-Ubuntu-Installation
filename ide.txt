@@ -1,0 +1,23 @@
+Jupyter Notebook:
+	sudo apt install python3-notebook jupyter jupyter-core python-ipykernel
+	jupyter notebook
+
+Netbeans:
+	sudo apt update
+	sudo apt install openjdk-8-jdk
+	java -version
+	sudo snap install netbeans --classic
+
+	*** This will take a long time
+
+Sublime Text 3:
+	sudo apt install g++
+	sudo snap install sublime-text --classic
+	subl
+	*** to configure sublime input see https://packagecontrol.io/packages/Sublime%20Input
+
+Idle:
+	sudo apt-get install idle3
+
+Pycharm Pro:
+	sudo snap install pycharm-professional --classic

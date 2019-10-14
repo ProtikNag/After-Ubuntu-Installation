@@ -1,0 +1,39 @@
+Python3 is now default on Ubuntu. But we have to install pip and other python packages manually. 
+
+Install pip3:	
+	sudo apt update
+	sudo apt install python3-pip
+	pip3 --version
+
+Install numpy:
+	pip3 install numpy
+
+Install scipy:
+	pip3 install scipy
+
+Install matplotlib:
+	pip3 install matplotlib
+
+Install pandas:
+	pip3 install pandas
+
+Install scikit-learn:
+	pip3 install scikit-learn
+
+Install opencv:
+	pip3 install opencv-contrib-python
+
+Install scrapy;
+	pip3 install scrapy
+
+Install pillow:
+	pip3 install Pillow
+
+Install BeautifulSoup:
+	sudo apt-get install python3-bs4
+
+Install pygame:
+	pip3 install pygame
+
+Install nltk:
+	pip3 install nltk
