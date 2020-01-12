@@ -37,3 +37,6 @@ Install pygame:
 
 Install nltk:
 	pip3 install nltk
+
+Install Tensorflow:
+	pip3 install tensorflow==2.0.0-alpha0 
