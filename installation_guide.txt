@@ -10,4 +10,10 @@ For my 8 gb ram + 256 gb ssd setup:
 Drive partitioning for personal data:
 
   
-    
+    /partition1 ----> whatever (logical + begining of the space + ext4 file system)
+    /partition2 ----> whatever (logical + begining of the space + ext4 file system)
+    .
+    .
+    .
+    .
+    .
