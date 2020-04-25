@@ -1,0 +1,13 @@
+For my 8 gb ram + 256 gb ssd setup:
+    
+    Swap      ---->   16 GB (primary + begining of the space)
+    /         ---->   30 gb (logical + begining of the space + ext4 file system)
+    /home     ---->   40 gb (logical + begining of the space + ext4 file system)
+    /var      ---->   10 gb (logical + begining of the space + ext4 file system)  [must be greater than 6 gb]
+    /boot     ---->    1 gb (primary + begining of the space + ext4 file system)
+    efi       ---->  512 mb (primary + begining of the space)
+    
+Drive partitioning for personal data:
+
+  
+    
